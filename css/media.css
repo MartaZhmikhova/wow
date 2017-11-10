@@ -1,0 +1,155 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.popup {
+		width: 40%; }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.popup {
+		width: 50%; }
+	nav{
+		display: none;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		width: 100%;
+		background-color: #333333;
+		border-radius: 5px;
+	}
+	nav>ul{
+		float: none;
+		text-align: center;
+		padding-left: 0;
+		margin: 40px 0;
+	}
+	nav>ul>li{
+		display: block;
+		margin: 0 auto 20px;
+	}
+	.wrap_lang{
+		display: inline-block;
+		margin-bottom: 0;
+	}
+	.dropdown_lang{
+	}
+	header .burger {
+		display: inline-block; }
+	.vidstyp{
+	margin: 50px 0;
+	}
+	.advant{
+	width: 48%;
+	}
+	.advant:nth-child(2n+1){
+		margin-right: 15px;
+	}
+	.news{
+		width: 45.5%;
+	}
+	.vertical_first, .vertical_last{
+		float: right;
+		width: 92%;
+	}
+	.vertical-text, .vertical-text-2{
+		margin: 60px;
+		margin-left: 80px;
+	}
+	.vertical_last{
+		border-left: 1px dashed #1abc9c;
+		border-right: 1px dashed #1abc9c;
+		border-bottom: 1px dashed #1abc9c;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.popup {
+		width: 65%; }
+	.advant{
+	width:100%;
+	float: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+	.advant:nth-child(2n+1){
+		margin-right:0;
+	}
+	.news{
+		width: 100%;
+		float: none;
+		margin: 50px 0;
+	}
+	footer input{
+		width: 260px;
+	}
+	.vertical_first, .vertical_last{
+		width: 88%;
+	}	
+	.vertical-text, .vertical-text-2{
+		margin: 40px;
+		margin-left: 80px;
+	}
+	.header-slaid{
+	margin: 15% auto 20%;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.popup {
+		width: 90%;
+		font-size: 16px;
+		line-height: 24px; }
+	/*header*/
+	
+	.header-buttons a, .black-block-buttons a{
+		display: inline-block;
+	}
+	.header-buttons a:last-child, 
+	.black-block-buttons a:last-child,
+	.black-block-buttons span{
+		margin-top: 20px;
+	}
+	.black-block-buttons span{
+		display: block;
+	}
+	.advant .ssulka{
+		display: block;
+		border-bottom: none;
+	}
+
+	.news-detail-p{
+		margin-right: 15px;
+	}
+
+	.form-wrap{
+		border: none;
+		display: block;
+	}
+	footer input{
+		width: 80%;
+		margin: 0 auto 40px;
+		border: 2px solid #fff;
+	}
+	footer .mail-buttons{
+		float: none;
+	}
+	.vertical_first, .vertical_last{
+		width: 80%;
+	}	
+	.vertical-text, .vertical-text-2{
+		margin: 20px;
+		margin-left: 60px;
+	}	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
