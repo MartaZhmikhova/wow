@@ -89,7 +89,7 @@
 	}
 	.vertical_first, .vertical_last{
 		width: 88%;
-	}	
+	}
 	.vertical-text, .vertical-text-2{
 		margin: 40px;
 		margin-left: 80px;
@@ -106,11 +106,16 @@
 		font-size: 16px;
 		line-height: 24px; }
 	/*header*/
-	
+	.header-slaid{
+	margin: 10% auto 20%;
+	}
+	.header-slaid p{
+		margin: 20px auto;
+	}
 	.header-buttons a, .black-block-buttons a{
 		display: inline-block;
 	}
-	.header-buttons a:last-child, 
+	.header-buttons a:last-child,
 	.black-block-buttons a:last-child,
 	.black-block-buttons span{
 		margin-top: 20px;
@@ -141,15 +146,27 @@
 	}
 	.vertical_first, .vertical_last{
 		width: 80%;
-	}	
+	}
 	.vertical-text, .vertical-text-2{
 		margin: 20px;
 		margin-left: 60px;
-	}	
+	}
 }
+@media only screen and (max-width : 900px) and (orientation: landscape){
 
+	.header-slaid p{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width : 480px) and (orientation: landscape){
+	.header-slaid{
+		margin-top: 0;
+	}
+	.header-slaid p{
+		margin-bottom: 10px;
+	}
+}
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 
 }
-

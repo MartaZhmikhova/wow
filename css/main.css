@@ -156,7 +156,6 @@ header{
 	position: relative;
 	color: #fff;
 	height: 100vh;
-	max-height: 660px;
 }
 header a{
 	color: #fff;
@@ -204,9 +203,9 @@ nav>ul>li:first-child{
 .download-button{
 	background: #1abc9c;
 	padding: 16px 30px;
-	-webkit-border-radius: 2px;	
-	-moz-border-radius: 2px;	
-	border-radius: 2px;	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 	white-space: nowrap;
 	display: inline-block;
 }
@@ -229,7 +228,7 @@ nav>ul>li:first-child{
 	right: 0;
 	top: 50%;
 	margin-top: -3px;
-	border: 5px solid transparent;	
+	border: 5px solid transparent;
 	border-top: 5px solid #fff;
 }*/
 .dropdown_lang{
@@ -237,8 +236,8 @@ nav>ul>li:first-child{
 	top: 0;
 	left: 0;
 	display: none;
-	-webkit-border-radius: 2px;	
-	-moz-border-radius: 2px;	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 	padding-top: 30px;
 }
@@ -269,12 +268,12 @@ nav>ul>li:first-child{
 .header-slaid p{
 	font: 30px/45px "Open Sans Light", sans-serif;
 	margin: 30px 0 70px;
-}	
+}
 .header-buttons a, .black-block-buttons a{
 	font-size: 14px;
 	margin: 0 15px;
-	-webkit-border-radius: 2px;	
-	-moz-border-radius: 2px;	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
 	border-radius: 2px;
 }
 .header-buttons a:first-child{
